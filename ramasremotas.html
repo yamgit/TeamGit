@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <style type="text/css">
+      h1
+      {
+        text-align: center;
+      }
+      h2
+      {
+
+        text-align: center;
+
+      }
+    </style>
+    <meta charset="utf-8">
+    <title>Ramas Remotas</title>
+  </head>
+  <body>
+    <h1>
+      Ramas Remotas
+    </h1>
+    <p>
+
+
+      Las ramas remotas son referencias al estado de las ramas en tus repositorios remotos. Son ramas locales que
+      no puedes mover; se mueven automáticamente cuando estableces comunicaciones en la red. Las ramas remotas
+      funcionan como marcadores, para recordarte en qué estado se encontraban tus repositorios remotos la última
+      vez que conectaste con ellos.<br><br>
+
+      Suelen referenciarse como (remoto)/(rama). Por ejemplo, si quieres saber cómo estaba la rama master en el
+      remoto origin, puedes revisar la rama origin/master. O si estás trabajando en un problema con un compañero
+      y este envía (push) una rama iss53, tú tendrás tu propia rama de trabajo local iss53; pero la rama en el
+      servidor apuntará a la última confirmación (commit) en la rama origin/iss53.<br><br>
+
+      Esto puede ser un tanto confuso, pero intentemos aclararlo con un ejemplo. Supongamos que tienes un servidor
+      Git en tu red, en git.ourcompany.com. Si haces un clon desde ahí, Git automáticamente lo denominará origin,
+      traerá (pull) sus datos, creará un apuntador hacia donde esté en ese momento su rama master y denominará la
+      copia local origin/master. Git te proporcionará también tu propia rama master, apuntando al mismo lugar
+      que la rama master de origin; de manera que tengas donde trabajar.<br>
+
+    </p>
+    <center>
+      <img src="imagenes/remote-branches-1.png" alt="ramas remotas" >
+    </center>
+  </body>
+
+</html>
